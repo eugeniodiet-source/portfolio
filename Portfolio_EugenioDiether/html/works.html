@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diether Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/logo.png">
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="index.html" class="brand">
+                    <img src="../images/logo.png" alt="" class="logo-img">
+            </a>
+            <input type="checkbox" class="menu-toggle" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+            </label>
+
+            <ul class="menu">
+                <li><a href="index.html" class="transition">Home <span></span></a></li>
+                    <li><a href="about.html" class="transition">About</a><span></span></li>
+                    <li><a href="works.html" class="transition active">Works</a><span></span></li>
+                    <li><a href="contact.html" class="transition">Contact</a><span></span></li>
+                <li>
+                    <a class="nav-btn" href="../document/Eugenio_Resume.pdf" download>              
+                        Download CV
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="section-container">
+                <div class="project-content">
+                    <header>
+                        <h1>
+                            My Works 
+                        </h1>
+                        <p></p>
+                    </header>
+                </div>
+            </div>
+        </section>
+        <section id="project-work-section">
+            <div class="section-container">
+                <div class="project-content">
+                    <header>
+                        <h1>
+                            My Projects
+                        </h1>
+                        <p>Highlighted here are some projects done by me.</p>
+                    </header>
+                </div>
+                <div class="card-container">
+                    <div id="project1" class="card">
+                        <video autoplay loop muted>
+                            <source src="../images/videos/ParkingManagement.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details">
+                            <h2>
+                                Parking Lot Management System
+                            </h2>
+                            <p>
+                                The Puregold Paso De Blas Parking Lot Management System is an application that stores and manages the parking space availability. In this project, it is implemented with the use of 2D Array Structure where the parking slot availability data will be stored. There are 3 2D Arrays constructed in the system for 3 types of vehicle parking space which are car, motorcycle, and bicycle. The number of available slots are displayed per category along with the visual representation of which slots are available. The system is also able to display a ticket and payment processing for vehicles using the parking lot and the data is saved in local storage.</p>
+                            <div class="card-tag-container">
+                                <div class="card-tag">
+                                    <p>Java Swing</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>Array</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>Local Storage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="project2" class="card">
+                        <video autoplay loop muted>
+                            <source src="../images/videos/Karaoke.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details">
+                            <h2>
+                                Karaoke Queuing System
+                            </h2>
+                            <p>
+                                The Tom’s Open Karaoke Queue System is a simple program that models and is inspired by how customers line up for Karaoke Box in the open space of Tom’s World Arcade. It applies the Queue data structure, following the First-In-First-Out (FIFO) process, meaning the first customer who arrives will be served first. The system lets users enter the customer name and chosen song, process them in order, and display the current waiting line.
+                            </p>
+                            <div class="card-tag-container">
+                                <div class="card-tag">
+                                    <p>Java Swing</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>Local Storage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="project3" class="card">
+                        <video autoplay loop muted>
+                            <source src="../images/videos/Route FInder.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details">
+                            <h2>
+                                Route Finder
+                            </h2>
+                            <p>
+                                This project demonstrates the application of graph theory in route finding by implementing Dijkstra’s shortest path algorithm along with Yen’s Algorithm. In this project, streets and intersections will be structured as nodes and edges in a graph. The data of nodes and edges are collected in the OverPass Turbo site and compiled to make an Osm File. The system utilized 2 different libraries which are OsmSharp and GMap.Net. OsmSharp is an OpenStreetMap library that extracts data from an osm file. Gmap.Net library helps for visual representation of the map and routes.
+                            </p>
+                            <p>
+                                 The system enables users to enter a starting point and a destination, then the system will compute and display three shortest possible routes based on distance. Each route will be shown on the map using different colors, along with a legend to help the user easily distinguish which path corresponds to which distance.
+                            </p>
+                            <div class="card-tag-container">
+                                <div class="card-tag">
+                                    <p>C# WinForms</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>OSMSharp</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>GMap.Net</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="project4" class="card">
+                        <video autoplay loop muted>
+                            <source src="../images/videos/Slideshow.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details">
+                            <h2>
+                                Smart Slideshow Manager
+                            </h2>
+                            <p>
+                                The project is a Smart Media Slideshow Application that allows users to view and manage a sequence of images and videos. The system uses a doubly linked list as its main data structure, where each slide acts as a node containing references to the previous and next files. Users can add slides, navigate forward and backward, delete slides, and view file details such as filename and position. The application also includes basic error handling to manage missing or unsupported files.
+                            </p>
+                            <div class="card-tag-container">
+                                <div class="card-tag">
+                                    <p>C# Winforms</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>Local Storage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="project5" class="card">
+                        <video autoplay loop muted>
+                            <source src="../images/videos/MiniSystem.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details">
+                            <h2>
+                                Ode to Old-World Pastry: Mini System
+                            </h2>
+                            <p>
+                                OOP: Ode to Old-World Pastry is a simple Point-of-Sale (POS) system create to help manage daily sales and store operations. The goal of the project is to make the checkout process faster, reduce manual errors, and make it easier for staff to handle customer orders. The system allows staff to manage products, categories, and orders while recording transactions in an organized way.
+                            </p>
+                            <p>
+                                The system includes features such as product management, staff accounts with role-based access, order tracking, and a POS interface for processing payments. It also provides basic sales summaries so the bakery can see total sales and identify popular products. By using this system, the bakery can improve efficiency, manage information better, and provide a better experience for store owner.
+                            </p>
+                            <div class="card-tag-container">
+                                <div class="card-tag">
+                                    <p>C# WinForms</p>
+                                </div>
+                                <div class="card-tag">
+                                    <p>Microsoft SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="project6" class="card">
+                        <video autoplay loop muted allowfullscreen>
+                            <source src="../images/videos/ecolife.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details">
+                            <h2>
+                                EcoLife: UI/UX Design Project
+                            </h2>
+                            <p>
+                                EcoLife is a UI/UX mobile app design in Figma. The goal of the app is to encourages users to live a more eco-friendly lifestyle. It includes a virtual garden where users grow digital plants, and for every plant grown, the management plants a real tree in real life. The app also has an EcoQuest feature that gives users simple environmental tasks and rewards them with points for completing them.
+                            </p>
+                            <p>
+                                Users can track their electricity and water consumption to become more aware of their daily resource use. The app also includes an online shop connected to partner companies that sell eco-friendly products, allowing users to support sustainable choices while using the platform.
+                            </p>
+                            <div class="card-tag-container">
+                                <div class="card-tag">
+                                    <p>Figma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cisco-section">
+            <div class="section-container">
+                <div class="project-content">
+                    <header>
+                        <h1>
+                            Cisco Activities
+                        </h1>
+                        <p>Highlighted here are some cisco networking done by me.</p>
+                    </header>
+                    <div class="card-container">
+                        <div class="card">
+                            <video autoplay loop muted>
+                                <source src="../images/videos/Switch vs Hub.mp4" type="video/mp4">
+                            </video>
+                            <div class="project-details">
+                                <h2>
+                                    Switch vs Hub
+                                </h2>
+                                <p>
+                                    In this activity, I configure similar computer connection with use of switch and hub. The switch only sends data to intended receiver while the hub broadcast the data to all connected clients.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <video autoplay loop muted>
+                                <source src="../images/videos/Static Routing.mp4" type="video/mp4">
+                            </video>
+                            <div class="project-details">
+                                <h2>
+                                    Static Routing
+                                </h2>
+                                <p>
+                                    Static routing configuration is manually configuring the path of network traffic to reach its destination. In this configuration, I manually input the destination network, subnet mask, and next-hop IP address of the router.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <video autoplay loop muted>
+                                <source src="../images/videos/Server Configuration.mp4" type="video/mp4">
+                            </video>
+                            <div class="project-details">
+                                <h2>
+                                    DHCP Server Configuration
+                                </h2>
+                                <p>
+                                    In DHCP (Dynamic Host Configuration Protocol) Server Configuration, I configure a server to give an automatic IP address to each client connected to it. In this way, we won't need to manually configure each PC (Static IP Address) to have connection to one another.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <video autoplay loop muted>
+                                <source src="../images/videos/Wireless Router.mp4" type="video/mp4">
+                            </video>
+                            <div class="project-details">
+                                <h2>
+                                    Wireless Routing
+                                </h2>
+                                <p>
+                                    The routers aside from using cables and serial DTE, they can also connect clients through wireless connection. In this configuration, one router act as main source of network and the other two routers extends this connection by allowing its client to connect wirelessly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cisco-section">
+            <div class="section-container">
+                <header>
+                    <h1>
+                        Multimedia Works
+                    </h1>
+                    <p>
+                        Highlighted here are photographs and poster done by me.
+                    </p>
+                </header>
+                <div class="carousel">
+                    <div class="group">
+                        <div class="multimedia">
+                            <img src="../images/plv1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/plv2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/plv3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/plv4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car5.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night5.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/tree2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster5.jpg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="group">
+                        <div class="multimedia">
+                            <img src="../images/plv1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/plv2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/plv3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/plv4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/car5.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/night5.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/tree2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster1.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster2.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster3.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster4.jpg" alt="">
+                        </div>
+                        <div class="multimedia">
+                            <img src="../images/poster5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section>
+        <footer>
+            <a href="index.html" class="brand" class="transition">
+                    <img src="../images/logo.png" alt="" class="logo-img">
+            </a>
+            <p>
+                Diether Eugenio
+                
+                
+            </p>
+            <p>
+                Aspiring Software Developer <span class="line-break"></span>  Networking Enthusiast  IT Student
+            </p>
+            <a href="mailto:diether.eugenio.b@:gmail.com" target="_blank">
+                <p>
+                    Email: diether.eugenio.b@gmail.com
+                </p>
+            </a>
+            <p>
+                © 2026 All Rights Reserved
+            </p>
+        </footer>
+    </section>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>

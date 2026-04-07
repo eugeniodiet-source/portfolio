@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diether Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/logo.png">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="index.html" class="brand">
+                    <img src="../images/logo.png" alt="" class="logo-img">
+            </a>
+            <input type="checkbox" class="menu-toggle" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+            </label>
+
+            <ul class="menu">
+                <li><a href="index.html" class="transition">Home <span></span></a></li>
+                    <li><a href="about.html" class="transition">About</a><span></span></li>
+                    <li><a href="works.html" class="transition">Works</a><span></span></li>
+                    <li><a href="contact.html" class="transition active">Contact</a><span></span></li>
+                <li>
+                    <a class="nav-btn" href="../document/Eugenio_Resume.pdf" download>              
+                        Download CV
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="contact-section">
+            <div class="section-container">
+                <div class="contact-container">
+                    <div class="contact-column">
+                        <h2>
+                            Get in touch
+                        </h2>
+                        <p>
+                            I’m an IT student interested in software development, networking, and multimedia. If you have questions, project ideas, or opportunities for learning and collaboration, feel free to contact me. I’d be happy to connect and learn more from others in the tech field.
+
+                            You can reach me through the contact information below or by sending a message using the form.
+                        </p>
+                        <div>
+                            <a href="mailto:diether.eugenio.b@:gmail.com" target="_blank">
+                                <p>
+                                    Email: diether.eugenio.b@gmail.com
+                                </p>
+                            </a>
+                            <p>
+                                Phone: +63968 310 4588
+                            </p>
+                        </div>
+                        <div class="buttons">
+                                <a href="https://www.facebook.com/share/184Q3FuVRa/">   
+                                <button><img src="../images/facebook.png" alt=""></button>
+                                </a>
+                                <a href="https://www.instagram.com/thr_mth?igsh=ZDJhNDl5OTg4OHJx">
+                                    <button><img src="../images/instagram.png" alt=""></button>
+                                </a>
+                                <a href="https://www.figma.com/@HiroshiYujin">
+                                    <button><img src="../images/figma.png" alt=""></button>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="message-column">
+                        <h2>Leave Your Message Here</h2>
+                        <form action="">
+                            <label for="name">Name</label>
+                            <input type="text" name="name">
+                            <label for="email">Email</label>
+                            <input type="email" name="email">
+                            <label for="Purpose">Purpose</label>
+                            <input type="text" name="purpose">
+                            <label for="message">Message</label>
+                            <textarea name="message"></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
