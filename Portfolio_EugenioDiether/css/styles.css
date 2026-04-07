@@ -586,7 +586,7 @@ body.fade-out {
         max-width: 700px;
     }
     section:nth-child(1){
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 0;
 }
 .hero-text,.about-text{
@@ -666,7 +666,7 @@ body.fade-out {
     }
     .contact-column,.message-column{
         padding: 0;
-        padding-top: 30px;
+        padding-top: 50px;
         padding-bottom: 30px;
     }
 }
